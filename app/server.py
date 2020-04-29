@@ -9,8 +9,8 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/uc?export=download&id=1-1rPGSppFo-QZ3EZb_CGKBJ6t5NmpBpX'
-export_file_name = 'cars-stage-7.pth'
+export_file_url = 'https://drive.google.com/uc?export=download&id=1hNqjgTeKApRtzm7NTsbTboWtgN8D8mjh'
+export_file_name = 'export.pkl'
 
 classes = ['audi','buggati','honda', 'lambo', 'ferrari', 'chevi']
 path = Path(__file__).parent
